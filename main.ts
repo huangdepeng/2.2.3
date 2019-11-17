@@ -367,7 +367,7 @@ namespace hicbit {
             else
                 Turn = 3;   //电机1：反 电机2：反
         }
-        if (speed2 < 0)
+        else if (speed2 < 0)
         {
             speed2 = speed2 * -1;
             if (speed1 > 0)
@@ -419,7 +419,7 @@ namespace hicbit {
             else
                 Turn = 3;//电机1：反 电机2：反
         }
-        if (speed2 < 0) {
+        else if (speed2 < 0) { 
             speed2 = speed2 * -1;
             if (speed1 > 0)
                 Turn = 2;//电机1：正 电机2：反
@@ -471,7 +471,7 @@ namespace hicbit {
             else
                 Turn = 3;//电机1：反 电机2：反
         }
-        if (speed2 < 0) {
+        else if (speed2 < 0) {
             speed2 = speed2 * -1;
             if (speed1 > 0)
                 Turn = 2;//电机1：正 电机2：反
